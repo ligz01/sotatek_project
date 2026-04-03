@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drawing Analyzer</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #111;
+            color: #eee;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #00ffcc;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .left, .right {
+            flex: 1;
+        }
+
+        img {
+            max-width: 100%;
+            border: 2px solid #444;
+        }
+
+        pre {
+            background: #222;
+            padding: 10px;
+            overflow: auto;
+            max-height: 400px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #00ffcc;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        .ocr-box {
+            background: #222;
+            margin-top: 10px;
+            padding: 10px;
+            border-left: 4px solid #00ffcc;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>🧠 Drawing Detection + OCR Demo</h1>
+
+<input type="file" id="fileInput">
+<br>
+<button onclick="upload()">🚀 Detect</button>
+
+<hr>
+
+<div class="container">
+
+    <div class="left">
+        <h2>📷 Result Image</h2>
+        <img id="resultImage">
+    </div>
+
+    <div class="right">
+        <h2>📄 JSON Output</h2>
+        <pre id="jsonOutput"></pre>
+
+        <h2>🧠 OCR Content</h2>
+        <div id="ocrOutput"></div>
+    </div>
+
+</div>
+
+<script>
+async function upload() {
+    const fileInput = document.getElementById("fileInput");
+    const file = fileInput.files[0];
+
+    if (!file) {
+        alert("Chọn ảnh trước 😅");
+        return;
+    }
+
+    const formData = new FormData();
+    formData.append("file", file);
+
+    document.getElementById("jsonOutput").textContent = "⏳ Processing...";
+    document.getElementById("ocrOutput").innerHTML = "";
+
+    const res = await fetch("http://127.0.0.1:8001/predict", {
+        method: "POST",
+        body: formData
+    });
+
+    const data = await res.json();
+
+    // ======================
+    // IMAGE
+    // ======================
+    const imgUrl = "http://127.0.0.1:8001/image?path=" + data.image_path;
+    document.getElementById("resultImage").src = imgUrl;
+
+    // ======================
+    // JSON
+    // ======================
+    document.getElementById("jsonOutput").textContent =
+        JSON.stringify(data.json, null, 2);
+
+    // ======================
+    // OCR PANEL
+    // ======================
+    const ocrDiv = document.getElementById("ocrOutput");
+
+    data.json.objects.forEach(obj => {
+        if (obj.ocr_content) {
+            const box = document.createElement("div");
+            box.className = "ocr-box";
+
+            box.innerHTML = `
+                <b>${obj.class} (ID: ${obj.id})</b><br>
+                <pre>${JSON.stringify(obj.ocr_content, null, 2)}</pre>
+            `;
+
+            ocrDiv.appendChild(box);
+        }
+    });
+}
+</script>
+
+</body>
+</html>

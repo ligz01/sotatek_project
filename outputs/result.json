@@ -1,0 +1,379 @@
+{
+    "image": "1.png",
+    "total_objects": 12,
+    "objects": [
+        {
+            "id": 1,
+            "class": "Table",
+            "confidence": 0.9941273927688599,
+            "bbox": {
+                "x1": 435,
+                "y1": 7,
+                "x2": 1072,
+                "y2": 465
+            },
+            "crop_path": "outputs\\crops\\1_table.png",
+            "ocr_content": [
+                [
+                    "6",
+                    "7",
+                    "8"
+                ],
+                [
+                    "ITEM",
+                    "QTY.",
+                    "SIDEWALL BINDING FRAME",
+                    "DESCRIPTION",
+                    "GRADE",
+                    "H368377-42020-232-250-9001-0001",
+                    "PART/DRAWING NUMBER",
+                    "TOTAL MASS (kg)",
+                    "14273.4"
+                ],
+                [
+                    "1",
+                    "1",
+                    "BUCKSTAY",
+                    "H368377-42020-232-260-2009-0001",
+                    "4592.3"
+                ],
+                [
+                    "2",
+                    "3",
+                    "5",
+                    "6",
+                    "4",
+                    "1",
+                    "2",
+                    "1",
+                    "2",
+                    "BINDING INFO PLATE",
+                    "BEARING PLATE",
+                    "BEARING PLATE",
+                    "BUCKSTAY",
+                    "WALER BEAM",
+                    "H368377-42020-232-260-2010-0001",
+                    "H368377-42020-232-260-2200-0001",
+                    "H368377-42020-232-260-2321-0001",
+                    "H368377-42020-232-260-2332-0001",
+                    "H368377-42020-232-260-2340-0001",
+                    "361.7",
+                    "4588.4",
+                    "323.3",
+                    "626.8",
+                    "3.3",
+                    "A"
+                ],
+                [
+                    "7",
+                    "1",
+                    "TIE ROD BEAM",
+                    "H368377-42020-232-260-2348-0001",
+                    "926.0"
+                ],
+                [
+                    "8",
+                    "2",
+                    "TIE ROD BEAM GUIDE",
+                    "H368377-42020-232-260-2351-0001",
+                    " 5.3"
+                ],
+                [
+                    "9",
+                    "H368377-42020-232-260-2506-0001",
+                    "163.4"
+                ],
+                [
+                    "10",
+                    "11",
+                    "12",
+                    "8",
+                    "8",
+                    "2",
+                    "4",
+                    "PIVOT SHAFT WASHER",
+                    "HOLD DOWN ARM",
+                    "LOCKING PIN",
+                    "PIVOT SHAFT",
+                    "H368377-42020-232-260-2507-0001",
+                    "H368377-42020-232-260-2509-0001",
+                    "H368377-42020-232-260-2508-0001",
+                    "1622.1",
+                    "3.9",
+                    "7.7"
+                ],
+                [
+                    "13",
+                    "14",
+                    "2",
+                    "2",
+                    "BINDING INFO PLATE",
+                    "PIVOT SHAFT",
+                    "H368377-42020-232-260-2510-0001",
+                    "H368377-42020-232-260-2513-0001",
+                    "204.3",
+                    " 3.3"
+                ],
+                [
+                    "15",
+                    "1",
+                    "ROOF JACKING BEAM",
+                    "H368377-42020-232-260-2600-0001",
+                    "538.5"
+                ],
+                [
+                    ": 4",
+                    "16",
+                    "8",
+                    "ASTM A325M M20X110",
+                    "METRIC HEAVY HEX STRUCTURAL BOLT",
+                    "TYPE 1",
+                    "H368377-42020-232-250-2200-P001",
+                    "3.0"
+                ],
+                [
+                    "17",
+                    "18",
+                    "4",
+                    "8",
+                    "METRIC HEAVY HEX STRUCTURAL BOLT",
+                    "SPLIT PIN ISO 1234 - 8 X 50",
+                    "ASTM A325M M20X80",
+                    "TYPE 1",
+                    "5t",
+                    "H368377-42020-232-250-2500P004",
+                    "H368377-42020-232-250-2600-P006",
+                    "1.2",
+                    " 0.2",
+                    "B"
+                ],
+                [
+                    "20",
+                    " 19",
+                    "21",
+                    "22",
+                    "24",
+                    "12",
+                    "2",
+                    "4",
+                    "SET SCREW ISO 4026 - M24X40",
+                    "T127X146X22X 1670 LONG",
+                    "HARDENED WASHER ASTM F436M M20",
+                    "METRIC HEAVY HEX NUT ASTM A563M M20",
+                    "CLASS 8S",
+                    "S355JIR",
+                    "200HV",
+                    "45H",
+                    "H368377-42020-232-250-2300-P008",
+                    "H368377-42020-232-250-2600-P008, QTY.4",
+                    "H368377-42020-232-250-9001-P001",
+                    "H368377-42020-232-250-2200-P004, QTY.16",
+                    "H368377-42020-232-250-2600-P010, QTY.8",
+                    "H368377-42020-232-250-2200-P003, QTY.8",
+                    "144.2",
+                    " 0.2",
+                    " 0.9",
+                    "1.4"
+                ],
+                [
+                    "23",
+                    "24",
+                    "2",
+                    "1",
+                    "T127X146X22X 2500 LONG",
+                    "T127X146X22X2275 LONG",
+                    "S355JR",
+                    "S355JR",
+                    "H368377-42020-232-250-9001-P002",
+                    "H368377-42020-232-250-9001-P003",
+                    "54.0",
+                    "98.2"
+                ]
+            ]
+        },
+        {
+            "id": 2,
+            "class": "Drawing",
+            "confidence": 0.9918560981750488,
+            "bbox": {
+                "x1": 425,
+                "y1": 604,
+                "x2": 757,
+                "y2": 830
+            },
+            "crop_path": "outputs\\crops\\2_drawing.png",
+            "ocr_content": ""
+        },
+        {
+            "id": 3,
+            "class": "Drawing",
+            "confidence": 0.9899231791496277,
+            "bbox": {
+                "x1": 765,
+                "y1": 582,
+                "x2": 988,
+                "y2": 825
+            },
+            "crop_path": "outputs\\crops\\3_drawing.png",
+            "ocr_content": ""
+        },
+        {
+            "id": 4,
+            "class": "Note",
+            "confidence": 0.9761940240859985,
+            "bbox": {
+                "x1": 556,
+                "y1": 463,
+                "x2": 1014,
+                "y2": 582
+            },
+            "crop_path": "outputs\\crops\\4_note.png",
+            "ocr_content": "NOTES\nTHIS DRAWING SHALL BE READ WITH SPECIFICATION H368377-PS401-011000\n23\nUNLESS NOTED OTHERWISE, DIMENSIONS ARE IN MILLIMETERS.\nMASSES ARE ESTIMATED.\nSECURE TIE ROD BEAM, HOLD DOWN ARMS, WALER BEAM AND JACKING BEAM TO BUCKSTAY\n4.\nFRAME PRIOR TO HANDLING OR LIFTING ASSEMBLY, SUBJECT TO HATCH APPROVAL\nTEMPORARY BRACING ITEMS 22, 23 AND 24 SHALL BE PAINTED YELLOW AND SHALL BE\n5.\nREMOVED PRIOR TO FURNACE COMMISSIONING.\nTOUCH UP PAINT ON BUCKSTAY FRAME AT ALL LOCATIONS WHERE TEMPORARY BRACING IS REMOVED.\n6"
+        },
+        {
+            "id": 5,
+            "class": "Drawing",
+            "confidence": 0.9609204530715942,
+            "bbox": {
+                "x1": 0,
+                "y1": 31,
+                "x2": 456,
+                "y2": 782
+            },
+            "crop_path": "outputs\\crops\\5_drawing.png",
+            "ocr_content": ""
+        },
+        {
+            "id": 6,
+            "class": "Drawing",
+            "confidence": 0.9034603834152222,
+            "bbox": {
+                "x1": 264,
+                "y1": 584,
+                "x2": 1080,
+                "y2": 832
+            },
+            "crop_path": "outputs\\crops\\6_drawing.png",
+            "ocr_content": ""
+        },
+        {
+            "id": 7,
+            "class": "Note",
+            "confidence": 0.3408399820327759,
+            "bbox": {
+                "x1": 739,
+                "y1": 479,
+                "x2": 983,
+                "y2": 571
+            },
+            "crop_path": "outputs\\crops\\7_note.png",
+            "ocr_content": "H SPECIFICATION H368377-PS401-011000\nSIONS ARE IN MILLIMETERS.\nVN ARMS, WALER BEAM AND JACKING BEAM TO BUCKSTAY\nTING ASSEMBLY. SUBJECT TO HATCH APPROVAL\nAND 24 SHALL BE PAINTED YELLOW AND SHALL BE\nMISSIONING\nAME AT ALL LOCATIONS WHERE TEMPORARY BRACING IS REMK"
+        },
+        {
+            "id": 8,
+            "class": "Drawing",
+            "confidence": 0.2542552053928375,
+            "bbox": {
+                "x1": 11,
+                "y1": 414,
+                "x2": 483,
+                "y2": 832
+            },
+            "crop_path": "outputs\\crops\\8_drawing.png",
+            "ocr_content": ""
+        },
+        {
+            "id": 9,
+            "class": "Note",
+            "confidence": 0.17599429190158844,
+            "bbox": {
+                "x1": 572,
+                "y1": 483,
+                "x2": 884,
+                "y2": 566
+            },
+            "crop_path": "outputs\\crops\\9_note.png",
+            "ocr_content": "THIS DRAWING SHALL BE READ WITH SPECIFICATION H368377-PS401-011\nUNLESS NOTED OTHERWISE, DIMENSIONS ARE IN MILLIMETERS.\nMASSES ARE ESTIMATED.\nSECURE TIE ROD BEAM, HOLD DOWN ARMS, WALER BEAM AND JACKING\nFRAME PRIOR TO HANDLING OR LIFTING ASSEMBLY, SUBJECT TO HATCH\nTEMPORARY BRACING ITEMS 22, 23 AND 24 SHALL BE PAINTED YELLOW A\nREMOVED PRIOR TO FURNACE COMMISSIONINGE\nTOUCH UP PAINT ON BUCKSTAY FRAME AT ALL LOCATIONS WHERE TEMP"
+        },
+        {
+            "id": 10,
+            "class": "Drawing",
+            "confidence": 0.08927889168262482,
+            "bbox": {
+                "x1": 0,
+                "y1": 554,
+                "x2": 849,
+                "y2": 832
+            },
+            "crop_path": "outputs\\crops\\10_drawing.png",
+            "ocr_content": ""
+        },
+        {
+            "id": 11,
+            "class": "Table",
+            "confidence": 0.07431644201278687,
+            "bbox": {
+                "x1": 13,
+                "y1": 67,
+                "x2": 427,
+                "y2": 804
+            },
+            "crop_path": "outputs\\crops\\11_table.png",
+            "ocr_content": [
+                [
+                    ")SEE NOTE 4"
+                ],
+                [
+                    "15SEE NC"
+                ],
+                [
+                    "20"
+                ],
+                [
+                    "21"
+                ],
+                [
+                    "2"
+                ],
+                [
+                    "E NOTE 4"
+                ],
+                [
+                    "1710",
+                    " SEE N"
+                ],
+                [
+                    "9",
+                    "23SEE NC"
+                ],
+                [
+                    "11",
+                    "3SEE NC"
+                ],
+                [
+                    "22SEE NO"
+                ],
+                [
+                    "15",
+                    "20"
+                ],
+                [
+                    "21"
+                ]
+            ]
+        },
+        {
+            "id": 12,
+            "class": "Drawing",
+            "confidence": 0.06341526657342911,
+            "bbox": {
+                "x1": 608,
+                "y1": 615,
+                "x2": 746,
+                "y2": 800
+            },
+            "crop_path": "outputs\\crops\\12_drawing.png",
+            "ocr_content": ""
+        }
+    ]
+}

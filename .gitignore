@@ -1,0 +1,6 @@
+mmdetection/
+venv/
+data/
+datasets/
+*.pth
+work_dir/
