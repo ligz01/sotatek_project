@@ -1,6 +1,16 @@
-mmdetection/
+# Môi trường ảo
 venv/
-data/
-datasets/
-*.pth
+
+# Thư mục chứa kết quả train/log
 work_dir/
+
+# Thư mục mã nguồn thư viện (Nếu bạn cài qua pip thì không nên đẩy lên)
+mmdetection/
+
+# Các tệp kết quả ảnh/video
+crops/
+outputs/
+
+# File tạm của Python
+__pycache__/
+*.py[cod]
